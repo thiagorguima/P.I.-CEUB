@@ -1,14 +1,14 @@
 # P.I. 3 - Centro Universitário de Brasília (CEUB)
-Descrição do Projeto
+# Descrição do Projeto
 Projeto Integrador do estudante de Análise e Desenvolvimento de Sistemas (ADS) Thiago Guimarães, feito, em 2025, como Trabalho de Conclusão de Curso para o Centro Universitário de Brasília (CEUB).  O projeto consiste em um site de apoio à vida espiritual.
 
-Objetivos
+# Objetivos
 Desenvolver uma aplicação prática baseada em requisitos reais ou simulados.
 Integrar conhecimentos de linguagens de programação, análise e design de sistemas.
 Fomentar a criatividade e a capacidade de resolução de problemas complexos.
 Estimular o trabalho colaborativo e a boa documentação do processo de desenvolvimento.
 
-Escopo e Requisitos do Projeto
+# Escopo e Requisitos do Projeto
 Tecnologias utilizadas: JavaScript, HTML, CSS e Canva.
 Requisitos funcionais: 
 Cadastro com armazenamento de dados;
@@ -23,7 +23,7 @@ Banco de dados relacional (ainda a especificar o SGBD a ser utilizado).
 Ferramentas de versionamento: GitHub
 Entregáveis: Código-fonte documentado, relatório do projeto e apresentação final.
 
-Cronograma
+# Cronograma
 Organização para a continuidade do projeto e definição das telas via figma - 01°/04/2025;
 Programar back end da tela de cadastro - 08/04/2025 até 06/05/2025;
 Definir front end - 13/05/2025 até 27/05/2025;
