@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Interativo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Tela de Login -->
+    <div id="login-screen">
+        <div class="login-container">
+          <div class="welcome-section">
+            <h1>Espiritualidade em Dia</h1>
+            <p>
+              “No amor e na fé encontraremos as forças necessárias para a nossa missão”, 
+              <strong>Santa Dulce dos Pobres.</strong>
+            </p>
+          </div>
+          <div class="login-section">
+            <h2>Bem-vindo</h2>
+            <p>Faça login.</p>
+            <form>
+              <label for="username">Usuário</label>
+              <input type="text" id="username" placeholder="Usuário">
+              <label for="password">Senha</label>
+              <div class="password-container">
+                <input type="password" id="password" placeholder="Senha">
+                <span class="toggle-password">&#128065;</span>
+              </div>
+              <a href="#" class="forgot-password">Esqueceu sua senha?</a>
+              <!-- Botão atualizado -->
+              <button id="login-submit" type="button">Entrar</button>
+            </form>
+            <p>Ou continue com</p>
+            <div class="social-login">
+              <button class="social-btn google">G</button>
+              <button class="social-btn facebook">f</button>
+              <button class="social-btn apple"></button>
+            </div>
+            <p class="signup-prompt">Criar nova conta</p>
+          </div>
+        </div>
+      </div>
+  <!-- Tela de Criação de Perfil -->
+<div class="profile-container" id="profile-screen" style="display: none;">
+    <h2>Novo Perfil</h2>
+    <div class="profile-card">
+        <div class="profile-image">
+            <img src="perfil.png" alt="Avatar" id="avatar">
+            <button class="change-image" onclick="chooseAvatar()">Escolher Avatar</button>
+        </div>
+        <input type="text" id="username-input" placeholder="Digite um nome" oninput="checkProfileCompletion()">
+        <div class="child-profile-toggle">
+            <label for="child-profile">Este perfil é de uma criança?</label>
+            <input type="checkbox" id="child-profile">
+        </div>
+        <button class="profile-enter-button" id="enter-button" style="display: none;" onclick="enterMenu()">Entrar</button>
+        <button class="save-profile-button" id="save-button" onclick="saveProfile()">Salvar Perfil</button>
+    </div>
+</div>
+    <!-- Menu Principal -->
+    <div class="menu" id="menu-screen" style="display: none;">
+        <h1>Tópicos</h1>
+        <ul>
+            <li><button data-topic="oracoes">Orações</button></li>
+            <li><button data-topic="meditacoes">Meditações</button></li>
+            <li><button data-topic="devocionario">Devocionário</button></li>
+            <li><button data-topic="liturgia">Liturgia diária</button></li>
+            <li><button data-topic="playlist">Playlist musical</button></li>
+            <li><button data-topic="filmes">Filmes</button></li>
+        </ul>        
+    </div>
+
+    <!-- Tela de Conteúdo -->
+    <div id="content-screen" style="display: none;">
+        <div id="content-container"></div>
+        <button onclick="returnToMenu()">Voltar ao menu</button>
+    </div>
+    
+
+    <!-- Arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
