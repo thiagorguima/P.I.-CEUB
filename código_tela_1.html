@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Espiritualidade em Dia</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #a5d3dc; /* Cor azul clara semelhante à do Figma */
+    }
+
+    .login-container {
+      width: 90%;
+      max-width: 350px;
+      background: rgba(255, 255, 255, 0.15);
+      padding: 30px 20px;
+      border-radius: 15px;
+      text-align: center;
+      backdrop-filter: blur(5px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .logo {
+      height: 100px;
+      margin-bottom: 20px;
+      background: url('') no-repeat center;
+      background-size: contain;
+    }
+
+    h1 {
+      font-size: 22px;
+      margin-bottom: 20px;
+      color: #222;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 25px;
+      outline: none;
+      font-size: 14px;
+    }
+
+    input[type="email"], input[type="password"] {
+      background: #fff;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background: #000;
+      color: #fff;
+      border: none;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 15px;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <img src="imagens/logo.png.png" alt="Logo do app" style="width:200px;"> 
+        
+    <form id="loginForm">
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="password" id="senha" placeholder="Senha" required>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <script>
+    const form = document.getElementById("loginForm");
+    form.addEventListener("submit", function(e) {
+      e.preventDefault();
+      const email = document.getElementById("email").value;
+      const senha = document.getElementById("senha").value;
+
+      if(email && senha){
+        alert("Login realizado com sucesso!");
+        //  acesso à tela 2:
+        // window.location.href = "home.html";
+        
+      } else {
+        alert("Preencha todos os campos.");
+      }
+    });
+  </script>
+</body>
+</html>
