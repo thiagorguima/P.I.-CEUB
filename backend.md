@@ -1,0 +1,9 @@
+- Subir Banco de dados
+- Subir backend
+- Server de Teste
+- Definir Pattern 
+- Definir Arquitetura
+- Segurança
+- Network, Gerenciamento
+- Validação de Email
+- Hospedar App
