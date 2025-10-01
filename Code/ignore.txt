@@ -1,1 +1,6 @@
 code
+npx expo install react-native-elements
+npx expo install react-dom react-native-web
+npm install react-native-screens react-native-safe-area-context
+npm install @react-navigation/native-stack
+npm install @react-navigation/native-stack
