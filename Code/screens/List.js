@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet,Image, Text, View, ScrollView, FlatList, TextInput, Button} from 'react-native';
 import ItemCard from '../components/itemCard';
 import {plist} from '../constants/bookdt.json'
-import { NavigationContainer, useNavigation } from '@react-navigation/native'
+import {useNavigation} from '@react-navigation/native'
 import {useState} from 'react'
 
 export function ListPray() {
