@@ -8,7 +8,7 @@ import {useState} from 'react'
 export function ListPray() {
   
   return (
-    <SafeAreaView style={styles.container}>
+    <View style={styles.container}>
       <View style={styles.topNavigation}>
         <Text style={styles.pg_title} >ORAÇÕES</Text>
         </View>
@@ -22,9 +22,7 @@ export function ListPray() {
         }}></FlatList>
 
       </ScrollView>
-      <NavigationContainer>
-      </NavigationContainer>
-    </SafeAreaView>
+    </View>
   );
 }
 
