@@ -6,7 +6,6 @@ import { useRef } from 'react';
 
 
   export default function Item({ title, subtitle }) {
-    const navigation = useNavigation();
     const [fontsLoaded] = useFonts({
     'Lancelot': require('../assets/Lancelot-Regular.ttf'),
     'Cara': require('../assets/EBGaramond-Regular.ttf'),
