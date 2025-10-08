@@ -9,6 +9,7 @@ import { Categorias } from './screens/Categorias'
 import { ListScreen } from './screens/List'
 import { SearchBar } from 'react-native-elements';
 import { useFonts } from 'expo-font';
+import { ReadingScreen } from './screens/Read.js';
 
 
 
@@ -46,7 +47,13 @@ const RootStack = createNativeStackNavigator({
         backgroundColor: '#a5d3dc'
       }, headerTitleAlign : 'center', headerTitle : 'Orações', headerTitleStyle: {fontFamily : 'Lancelot', fontSize: 33, color: '#ffffff', }}
     },
-    E : Categorias
+    Reading : {
+      screen: ReadingScreen,
+      options : { headerStyle : {
+        backgroundColor: '#a5d3dc'
+      }, headerTitleAlign : 'center', headerTitleStyle: {fontFamily : 'Lancelot', fontSize: 33, color: '#ffffff' }
+    }
+    }
   }
 });
 
