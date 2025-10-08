@@ -7,3 +7,7 @@
 - Network, Gerenciamento
 - Validação de Email
 - Hospedar App
+- Animação de Transição,
+- Adicionar Botão de configuração e bandeira no header 
+- Carregar titulo e conteudo de acordo com card pressionado 
+- Sombra e destaque para o título
