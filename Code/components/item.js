@@ -3,7 +3,7 @@ import { Animated, Text, StyleSheet, View, Pressable } from 'react-native';
 import { FontAwesome } from '@expo/vector-icons';
 import { useFonts } from 'expo-font';
 import { useRef } from 'react';
-
+import { useNavigation } from '@react-navigation/native';
 
   export default function Item({ title, subtitle }) {
     const [fontsLoaded] = useFonts({
@@ -28,6 +28,7 @@ import { useRef } from 'react';
         speed: 30,
         bounciness: 8,
       }).start();
+      navigation.navigate('Reading', { title, subtitle });
     } 
     
     ;
