@@ -1,0 +1,343 @@
+1. Tela de Meditação                  
+
+import React from 'react';
+import { View, Text, ScrollView, StyleSheet } from 'react-native';
+
+
+export  function ReadingScreen() {
+  return (
+    <ScrollView style={styles.container} contentContainerStyle={{ padding: 20 }}>
+      <View style={styles.textContainer}>
+        <Text style={styles.text}>
+        Tarde te Amei
+        (Santo Agostinho)
+        Tarde te amei!
+        Tarde Te amei, ó Beleza tão antiga e tão nova!
+        Tarde demais eu Te amei!
+        Eis que estavas dentro, e eu, fora – e fora Te buscava, e me lançava, disforme e nada belo, perante a beleza de tudo e de todos que criaste.
+        Estavas comigo, e eu não estava Contigo… Seguravam-me longe de Ti as coisas que não existiriam senão em Ti.
+        Chamaste, clamaste por mim e rompeste a minha surdez.
+        Brilhaste, resplandeceste, e a Tua Luz afugentou minha cegueira.
+        Exalaste o Teu Perfume e, respirando-o, suspirei por Ti, Te desejei.
+        Eu Te provei, Te saboreei e, agora, tenho fome e sede de Ti.
+        Tocaste-me e agora ardo em desejos por Tua Paz!
+        </Text>
+      </View>
+    </ScrollView>
+  );
+}
+
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#FAFAFA',
+  },
+  textContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 10,
+  },
+  text: {
+    textAlign: 'center',
+    fontSize: 17,
+    lineHeight: 26,
+    color: '#2C3E50',
+    fontFamily: 'System',
+  },
+});
+
+2. LITURGIA DIÁRIA
+
+import React from 'react';
+import { View, Text, ScrollView, StyleSheet } from 'react-native';
+
+
+export  function ReadingScreen() {
+  return (
+    <ScrollView style={styles.container} contentContainerStyle={{ padding: 20 }}>
+      <View style={styles.textContainer}>
+        <Text style={styles.text}>
+        https://liturgia.cancaonova.com/pb/
+        </Text>
+      </View>
+    </ScrollView>
+  );
+}
+
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#FAFAFA',
+  },
+  textContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 10,
+  },
+  text: {
+    textAlign: 'center',
+    fontSize: 17,
+    lineHeight: 26,
+    color: '#2C3E50',
+    fontFamily: 'System',
+  },
+});
+
+3. Exame de consciência
+
+import React from 'react';
+import { View, Text, ScrollView, StyleSheet } from 'react-native';
+
+
+export  function ReadingScreen() {
+  return (
+    <ScrollView style={styles.container} contentContainerStyle={{ padding: 20 }}>
+      <View style={styles.textContainer}>
+        <Text style={styles.text}>
+Deveres para com Deus
+Comecei o dia oferecendo a Deus todos os meus pensamentos, palavras e ações? Fiz algumas outras orações durante o dia: agradecendo, pedindo, oferecendo a Deus o trabalho bem feito, aceitando com fé os sofrimentos e contrariedades, etc.? Procurei viver a fé e cumprir com os preceitos da Igreja? Caí em alguma prática supersticiosa? Fiz alguns pequenos sacrifícios ao comer, ao beber, nas conversas, na guarda da vista pela rua?
+Deveres para com o próximo
+Tratei os outros com compreensão e paciência? Manifestei-lhes aversão, desprezo ou irritação? Tive inveja? Falei mal da vida alheia, divulgando defeitos ou pecados dos outros? Fui egoísta, pensando só nas atenções que os outros deveriam dar-me, e esquecendo-me de ser prestativo, generoso e dedicado? Admiti sentimentos de ódio, rancor ou vingança? Magoei alguém com brincadeiras e comentários humilhantes? Procurei prestar pequenos serviços aos demais? Fiz o possível para auxiliar os que precisavam de uma ajuda material ou espiritual, sobretudo no trabalho e em casa? Rezei pelos outros e procurei aproximar algum amigo de Deus?
+Deveres para comigo
+Esforcei-me por melhorar hoje em alguma virtude, especialmente naqueles em que tenho mais dificuldades? Procurei cumprir com perfeição os meus deveres familiares e profissionais, lutando contra a preguiça, o desleixo, a desordem, o adiantamento? Evitei pensamentos, palavras ou atos de orgulho, vaidade, preguiça, sensualidade ou avareza? Deixei-me arrastar pela curiosidade sensual e por desejos impuros? Fui insincero?
+Ato de contrição
+Senhor meu, Jesus Cristo, Deus e homem verdadeiro, Criador e Redentor meu: por serdes Vós quem sois, sumamente bom e digno de ser amado sobre todas as coisas, e porque Vos amo e estimo, pesa-me, Senhor, de todo o meu coração, de Vos Ter ofendido; pesa-me também de ter perdido o céu e merecido o inferno; e proponho firmemente, ajudado com o auxílio de Vossa divina graça, emendar-me e nunca mais Vos tornar a ofender. espero alcançar o perdão de minhas culpas pela Vossa infinita misericórdia. Amém.
+        </Text>
+      </View>
+    </ScrollView>
+  );
+}
+
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#FAFAFA',
+  },
+  textContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 10,
+  },
+  text: {
+    textAlign: 'center',
+    fontSize: 17,
+    lineHeight: 26,
+    color: '#2C3E50',
+    fontFamily: 'System',
+  },
+});
+
+4. ORAÇÕES
+
+Credo
+
+import React from 'react';
+import { View, Text, ScrollView, StyleSheet } from 'react-native';
+
+
+
+
+export  function ReadingScreen() {
+  return (
+    <ScrollView style={styles.container} contentContainerStyle={{ padding: 20 }}>
+      <View style={styles.textContainer}>
+        <Text style={styles.text}>
+        Creio em Deus Pai Todo-Poderoso, criador do céu e da terra.
+        E em Jesus Cristo, seu único Filho Nosso Senhor,
+        que foi concebido pelo poder do Espírito Santo,
+        nasceu da Virgem Maria,
+        padeceu sob Pôncio Pilatos,
+        foi crucificado, morto e sepultado,
+        desceu à mansão dos mortos,
+        ressuscitou ao terceiro dia,
+        subiu aos céus, está sentado à direita de Deus Pai Todo- Poderoso, donde há de vir a julgar os vivos e mortos.
+        Creio no Espírito Santo.
+        Na Santa Igreja Católica, na comunhão dos santos, na remissão dos pecados, na ressurreição da carne, na vida eterna. Amém.
+        </Text>
+      </View>
+    </ScrollView>
+  );
+}
+
+
+
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#FAFAFA',
+  },
+  textContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 10,
+
+Pai Nosso
+
+import React from 'react';
+import { View, Text, ScrollView, StyleSheet } from 'react-native';
+
+
+
+
+export  function ReadingScreen() {
+  return (
+    <ScrollView style={styles.container} contentContainerStyle={{ padding: 20 }}>
+      <View style={styles.textContainer}>
+        <Text style={styles.text}>
+Pai Nosso, que estais nos céus, santificado seja o Vosso nome; Venha a nós o Vosso reino, seja feita a Vossa vontade, assim na Terra como no Céu. O pão nosso de cada dia nos dai hoje; perdoai as nossas ofensas assim como nós perdoamos a quem nos tem ofendido, e não nos deixeis cair em tentação, mas livrai-nos do mal. Amém.
+        </Text>
+      </View>
+    </ScrollView>
+  );
+}
+
+
+
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#FAFAFA',
+  },
+  textContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 10,
+
+Glória
+
+import React from 'react';
+import { View, Text, ScrollView, StyleSheet } from 'react-native';
+
+
+
+
+export  function ReadingScreen() {
+  return (
+    <ScrollView style={styles.container} contentContainerStyle={{ padding: 20 }}>
+      <View style={styles.textContainer}>
+        <Text style={styles.text}>
+Glória ao Pai, ao Filho e ao Espírito Santo. Como era no princípio, agora e sempre, por todos os séculos dos séculos. Amém.
+        </Text>
+      </View>
+    </ScrollView>
+  );
+}
+
+
+
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#FAFAFA',
+  },
+  textContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 10,
+
+Vinde, Espírito Santo
+
+import React from 'react';
+import { View, Text, ScrollView, StyleSheet } from 'react-native';
+
+
+
+
+export  function ReadingScreen() {
+  return (
+    <ScrollView style={styles.container} contentContainerStyle={{ padding: 20 }}>
+      <View style={styles.textContainer}>
+        <Text style={styles.text}>
+Vinde, Espírito Santo, enchei os corações dos Vossos fiéis, e acendei neles o fogo do Vosso amor. Enviai o Vosso Espírito, e tudo será criado, e renovareis a face da terra. Oremos: Ó Deus, que instruístes os corações dos Vossos fiéis com a luz do Espírito Santo, fazei que apreciemos retamente todas as coisas segundo o mesmo Espírito e gozemos sempre de Sua consolação. Por Cristo, Senhor Nosso. Amém.
+        </Text>
+      </View>
+    </ScrollView>
+  );
+}
+
+
+
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#FAFAFA',
+  },
+  textContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 10,
+
+Ave Maria
+
+import React from 'react';
+import { View, Text, ScrollView, StyleSheet } from 'react-native';
+
+
+
+
+export  function ReadingScreen() {
+  return (
+    <ScrollView style={styles.container} contentContainerStyle={{ padding: 20 }}>
+      <View style={styles.textContainer}>
+        <Text style={styles.text}>
+Ave Maria, cheia de graça, o Senhor é convosco, bendita sois vós entre as mulheres, e bendito é o fruto do vosso ventre, Jesus. Santa Maria, Mãe de Deus, rogai por nós, pecadores, agora e na hora da nossa morte. Amém. 
+        </Text>
+      </View>
+    </ScrollView>
+  );
+}
+
+
+
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#FAFAFA',
+  },
+  textContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 10,
+
+Santo Anjo
+
+import React from 'react';
+import { View, Text, ScrollView, StyleSheet } from 'react-native';
+
+
+
+
+export  function ReadingScreen() {
+  return (
+    <ScrollView style={styles.container} contentContainerStyle={{ padding: 20 }}>
+      <View style={styles.textContainer}>
+        <Text style={styles.text}>
+Santo Anjo do Senhor, meu zeloso guardador, se a ti me confiou a piedade divina, sempre me rege, me guarde, me governe e me ilumine. Amém. 
+        </Text>
+      </View>
+    </ScrollView>
+  );
+}
+
+
+
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#FAFAFA',
+  },
+  textContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 10,
+
+
